@@ -5,5 +5,6 @@ import lombok.Data;
 @Data
 public class PurchaseResponse {
 
-    private String orderTrackingNumber;
+    // @Data will generate constructor for final fields
+    private final String orderTrackingNumber;
 }
